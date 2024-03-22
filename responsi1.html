@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Achmad Agim Machfud</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0f0f0;
+        }
+        nav {
+            background-color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            border-bottom: 1px solid #cccccc;
+        }
+        #img-logo {
+            width: 500px;
+        }
+        nav ul li a {
+            color: blue;
+            text-decoration: none;
+            padding: 10px 20px;
+        }
+        nav ul li {
+            list-style: none;
+            display: inline;
+            margin: 10px;
+        }
+        nav ul li a:hover, nav a:hover {
+            background-color: yellow;
+            color: blueviolet;
+        }
+        nav a {
+            color: blue;
+            text-decoration: none;
+            padding: 10px 20px;
+        }
+        nav a:hover {
+            background-color: yellow;
+            color: blueviolet;
+        }
+        .container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 20px;
+        }
+        #orang {
+            width: 700px;
+        }
+       .text-container {
+            display: inline;
+            align-items: center;
+        }
+        .contact-container {
+            background-color: #f5f5f5;
+            padding: 20px;
+            border-radius: 5px;
+            margin-top: 30px;
+            text-align: center;
+        }
+        .contact-container h2 {
+            color: #333;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        .contact-container ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+        }
+        .contact-container ul li {
+            margin: 0 10px;
+        }
+        .contact-container ul li a {
+            display: flex;
+            align-items: center;
+            color: #333;
+            text-decoration: none;
+            font-size: 20px;
+            transition: all 0.3s ease;
+        }
+        .contact-container ul li a:hover {
+            color: #2196f3;
+        }
+        .contact-container i {
+            margin-right: 10px;
+            font-size: 24px;
+        }
+        .contact-container span {
+            font-size: 16px;
+        }
+
+        .contact-table {
+            background-color: #dddddd;
+            margin-top: 20px;
+            padding: 20px;
+            text-align: center;
+        }
+        .contact-table th {
+            background-color: #eeeeee;
+            padding: 10px;
+        }
+        .contact-table td {
+            padding: 10px;
+        }
+        .whatsapp {
+            background-color: #25d366;
+        }
+        .instagram {
+            background-color: #e1306c;
+        }
+        .facebook {
+            background-color: #1877f2;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <h1>Achmad Agim</h1>
+       <ul>
+            <li><a href="#">Beranda</a></li>
+            <li><a href="#">Tentang Saya</a></li>
+            <li><a href="#">Portofolio</a></li>
+            <li><a href="#">Clients</a></li>
+        </ul>
+        <div class="cta-button">
+            <a href="#">Login</a>
+            <a href="#">Sign Up</a>
+        </div>
+    </nav>
+    
+    <div class="container">
+        <img id="orang" src="foto1.png" alt="">
+        <div class="text-container">
+            <h1>HALLO!!!🙌 EVERYONE</h1>
+            <strong><p>I am Achmad Agim Machfud, a student at Universitas Teknologi Yogyakarta with a Teknik Komputer study program. I'm from Magelang, Central Java</p></strong>
+        </div>
+    </div>
+
+    <div class="contact-container">
+        <h2>Contact Me</h2>
+        <ul>
+            <li>
+                <a href="https://wa.me/6282135466551" target="_blank">
+                    <i class="fab fa-whatsapp"></i>
+                    <span>WhatsApp</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://instagram.com/achmdagm" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                    <span>Instagram</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.facebook.com/Achmad-Agim-II-100841482759049/" target="_blank">
+                    <i class="fab fa-facebook-f"></i>
+                    <span>Facebook</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
